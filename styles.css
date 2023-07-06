@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.menu-container{
+
+.menu-container {
     background-color: rgb(34, 32, 32);
     padding: 20px;
     color: white;
@@ -10,58 +11,119 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-.logo-pic{
+
+.logo-pic {
     width: 120px;
 }
-.menus{
+
+.menus {
     display: flex;
 
 }
-.item{
+
+.item {
     margin-right: 10px;
     padding-right: 7px;
     font-size: 18px;
     cursor: pointer;
 }
-.item:hover{
-   
+
+.item:hover {
+
     background-color: red;
 
 }
-.banner-i{
-    width: 300px;           
+
+.banner-i {
+    width: 300px;
 }
 
-.banner-container{
+.banner-container {
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items:center ;
+    align-items: center;
     /* height: 500px; */
     height: 100vh;
     border: 2px solid gray;
-background-image: url("./images/background.png"),linear-gradient(45deg,#000,#000);
+    background-image: url("./images/background.png"),
+     linear-gradient(45deg, #000, #000);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
 }
-.title{
+
+.title {
     font-size: 55px;
     font-weight: bold;
 }
-.description{
+
+.description {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.btn{
+
+.btn {
     padding: 10px 20px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 10px;
+    /* this is i take from CHATGTP  */
+    /* i have to look it or share it with someone who is expert  */
+    /* align-self: flex-start; */
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     color: black;
     cursor: pointer;
+}
+.about-i{
+    width: 300px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.about-text{
+    padding: 10px;
+    text-align: center;
+}
+.about-h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Services-h1{
+    padding: 10px;
+    text-align: center;
+
+}
+.lg1{
+    width: 40px;
+}
+.box{
+    width: 200px;
+    height: 210px;
+    background-color: rgb(56, 54, 54);
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* for sometime this background: ; */
+   background-color: #000;
 }
