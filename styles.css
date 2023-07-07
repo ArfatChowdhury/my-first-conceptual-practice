@@ -109,15 +109,22 @@
 .Services-h1{
     padding: 10px;
     text-align: center;
+    margin: 10px;
 
 }
 .lg1{
     width: 40px;
+    padding: 10px;
 }
 .box{
     width: 200px;
-    height: 210px;
-    background-color: rgb(56, 54, 54);
+    height: 270px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 11px 100px rgb(44, 43, 43);
+    border-radius: 5px;
+    color: white;
     
 }
 .boxes{
@@ -125,5 +132,26 @@
     justify-content: space-around;
     align-items: center;
     /* for sometime this background: ; */
-   background-color: #000;
+ background-image: url("images/background.png"), linear-gradient(45deg, #000, #000 );
+   text-align: center;
+   
+}
+.btn2{
+    padding:10px 20px ;
+    margin: 10px;
+}
+.box-p{
+    font-size: 18px;
+    margin: 10px;
+}
+.footer-sec{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.logo6{
+    width: 100px;
 }
